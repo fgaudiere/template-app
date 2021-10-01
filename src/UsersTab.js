@@ -49,11 +49,11 @@ class UserTable extends React.Component {
       <table style={{border: '1px black solid'}}>
         <thead>
           <tr className='tab-header'>
-            <th>Name</th>
-            <th>Username</th>
+            <th>Nom</th>
+            <th>Pseudo</th>
             <th>Email</th>
             <th>Role</th>
-            <th>Grafana Admin</th>
+            <th>Administrateur</th>
           </tr>
         </thead>
         <tbody>{rows}</tbody>
