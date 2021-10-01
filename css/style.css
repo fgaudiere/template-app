@@ -1,0 +1,71 @@
+.container {
+    font-family: cursive;
+}
+
+.lmj-banner {
+    color: white;
+    background-color: #AF007c;
+    text-align: right;
+    padding: 12px;
+    border-bottom: 3px solid darkgrey;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.lmj-title {
+    font-size: 2.5rem;
+    padding-left: 32px;
+}
+
+.lmj-logo {
+    height: 6rem;
+    width: 7.2rem;
+}
+
+.nav-nav-tabs {
+    background-color: 'none';
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.nav-item {
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.nav-link-active {
+    background-color: lightgrey;
+    color: black;
+    border: solid 3px #AF007c;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-decoration: none;
+    font-size: 2rem;
+    box-shadow: #aaa 8px 8px 8px;
+}
+
+.nav-link- {
+    color: black;
+    border: solid 3px #AF007c;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+/*.userTab {
+    border: 1px solid black;
+}*/
+
+.tab-header {
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.tab-row:hover {
+    background-color: lightgrey;
+}
