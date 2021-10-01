@@ -40,8 +40,8 @@ class TeamTable extends React.Component {
             <table style={{border: '1px black solid'}}>
                 <thead>
                     <tr className='tab-header'>
-                        <td>Teams</td>
-                        <td>Number</td>
+                        <td>Equipes</td>
+                        <td>Nombre</td>
                     </tr>
                 </thead>
                 <tbody>
