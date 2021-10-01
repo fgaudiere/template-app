@@ -21,11 +21,11 @@ render() {
     return (
         <NavTab tabs={['Users', 'Teams']} selected={ this.state.selected } setSelected={ this.setSelected }>
           <Tab isSelected={ this.state.selected === 'Users' }>
-              <h1>Liste des Users</h1>
+              <h1>Liste des Utilisateurs</h1>
              <Corps />
           </Tab> 
           <Tab isSelected={ this.state.selected === 'Teams' }>
-            <h1>Liste des Teams</h1>
+            <h1>Liste des Equipes</h1>
             <CorpsTeams/>
           </Tab>
         </NavTab>
